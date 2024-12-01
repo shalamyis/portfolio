@@ -6,14 +6,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&family=Nothing+You+Could+Do&family=Oleo+Script:wght@400;700&family=Rock+Salt&display=swap" rel="stylesheet">
-<style>
-	
-	body{
+	<style>
+		body{
 	
 		background-color:antiquewhite;
 	}
 	.logo{
-		width: 40%;
+		width: 85%;
 		
 	}
 	header{
@@ -89,9 +88,7 @@
   display: block;
 	border-radius: 20px;
 }
-	.PapaCleve{
-		border-radius: 20px;
-	}
+
 	p{
 		font-size: 40px;
 		  font-family: "Caveat", cursive;
@@ -104,30 +101,21 @@
 
 .zoom {
   padding: 30px;
-  background-image:url("Papa Cleve.jpg");
+	background-repeat: no-repeat;
   transition: transform .2s;
-  width: 89%;
-  height: 500px;
-  margin: 0 auto;
+  width: 80%;
 	border-radius: 20px;
-	margin:50px auto;
+	margin-top:-60px;
+	vertical-align: middle;
+	align: center;
 }
 
 .zoom:hover {
-  -ms-transform: scale(1); /* IE 9 */
-  -webkit-transform: scale(1); /* Safari 3-8 */
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
   transform: scale(1.18); 
 }
-	.zoom {
-  padding: 30px;
-  background-image:url()
-  transition: transform .2s;
-  width: 89%;
-  height: 500px;
-  margin: 0 auto;
-	border-radius: 20px;
-	margin:50px auto;
-}
+	
 
 .zoom:hover {
   -ms-transform: scale(1);
@@ -146,15 +134,108 @@
 		vertical-align: middle;
 		display:inline;
 	}
+		
+
+
 	
-	@media{min-width: 1000px;
+	@media(min-width: 1200px){
+		
 	
-		h1{color: white;
-			
+		wrapper{
+			width: 80%;
+			margin-bottom: 20px;
+		}
+		body{
+			background-image: url("../GRA1750P6ShalamYisrael2024/ice cream.jpg")
+		}
+		header{
+			background-color: rgba(250, 235, 215, .5);
+			width: 80%;
+		}
+		.logo{
+			width: 40%;
+		}
+		.sectionA{
+			margin-left:-62px;
+		}
+		.dropbtn{
+			width: 0px;
+			height:0px;
+			color: rgba(0, 0, 0, .001);
+				background-color: rgba(0, 0, 0, .001);
+		}
+		.dropdown{
+			width: 0px;
+			height: 0px;
+		}
+		.dropdown-content{
+			width: 0px;
+			height: 0px;
+			color: rgba (0, 0, 0, 0.001);
+		}
+
+		.dropdown:hover .dropbtn {background-color: rgba(0, 0, 0, .001)}
+		.dropdown:hover .dropdown-content {display:none;
+		
 		}
 	}
+	@media(min-width: 1200px){
+		.logo{
+			width:0px;
+		}
+		header{
+			0px;
+		}
 	
-</style>
+	#nav-menu a{
+		padding:10px;
+		text-decoration: none;
+		color: black;
+		
+		}}
+nav {
+	background-color:bisque;
+}
+		.logoB{
+	
+		}
+		.nav: hover{
+			color:white;
+		}
+		
+
+#nav-menu a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+	font-size: 300%;
+	vertical-align: middle;
+	align-content: center;
+}
+
+.hamburger {
+  display: none;
+  font-size: 90px;
+  color: black;
+  cursor: pointer;
+	
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+	  /*    background-color: #333;*/}
+
+		}
+	
+	</style>
 </head>
 
 <body>
@@ -162,17 +243,28 @@
 		<img src="cleveland-02.png" alt="Cleveland's Old Fashioned Ice Cream logo" class="logo">
 			</header>
 	<wrapper>
+		<nav>
+			
+  
+    <div id="nav-menu" class="nav-menu">
+		<a href="#"><img src="cleveland-02.png" width="190" alt="Cleveland's Old Fashioned Ice Cream Logo" class="logoB"></a>
+      <a href="#">Our Flavors</a>
+      <a href="#">Location</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Hours</a>
+    </div>
+  </nav>
 	<h2 class="SigFlav">Have you tried Papa Cleve's Signature flavor?</h2>
 		<img src="bun and cheese scoop.png" alt="Bun and Cheese Ice Cream Scoop" width="400">
 		<h1>Bun &amp; Cheese</h1>
 		
 		<div class="zoom"></div>
-		
+		<img src="Papa Cleve.jpg" alt="Papa Cleve (founder) holding out Ice Cream to Viewer" class="zoom">
 		
 		<p>Expect new flavors to be added at any time, with some going away for a bit. Join our monthly poll to vote for a new flavor of the month!</p>
 		
 		
-	<div class="dropdown">
+	<section><div class="dropdown">
 		<button class="dropbtn">Our Flavors</button>
   <div class="dropdown-content">
     <a href="#">banana</a>
@@ -199,7 +291,7 @@
   <div class="dropdown-content">
     <a href="#">754-888-9152</a>
   </div>
-</div>
+		</div></section>
 
 	</wrapper>
 	<footer>&copy; 2024, Shalam Yisrael. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
